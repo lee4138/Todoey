@@ -8,10 +8,10 @@
 
 import Foundation
 
-class Item {
+// conforms to encodable and decodable 
+class Item: Codable {
     
     var title : String = ""
     var done: Bool =  false
-    
     
 }
